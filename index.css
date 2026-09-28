@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #172b45;
+  background: #f2f5f9;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(ellipse at 80% 0%, rgba(0, 136, 204, 0.1), transparent 42%),
+    #f2f5f9;
+}
+
+.launch-card {
+  width: min(100%, 760px);
+  padding: clamp(24px, 5vw, 52px);
+  border: 1px solid #dbe4ee;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 22px 60px rgba(7, 30, 61, 0.12);
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  color: #07558a;
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+}
+
+h1 {
+  margin: 0;
+  color: #071e3d;
+  font-size: clamp(2.5rem, 8vw, 4.5rem);
+  line-height: 1;
+}
+
+.lead {
+  margin: 18px 0 28px;
+  color: #4a5d73;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  line-height: 1.65;
+}
+
+.notice {
+  padding: 22px;
+  border: 1px solid #b9d9ed;
+  border-left: 5px solid #0876b9;
+  border-radius: 10px;
+  background: #f2f9fd;
+}
+
+.notice h2 {
+  margin: 0 0 10px;
+  color: #092f52;
+  font-size: 1.2rem;
+}
+
+.notice p,
+.notice li {
+  color: #31485e;
+  line-height: 1.65;
+}
+
+.notice p {
+  margin: 0;
+}
+
+.notice ol {
+  margin: 14px 0 0;
+  padding-left: 1.35rem;
+}
+
+code {
+  overflow-wrap: anywhere;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #e6eef5;
+  color: #102b46;
+}
+
+.demo-note {
+  margin: 22px 0 0;
+  color: #53657a;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
